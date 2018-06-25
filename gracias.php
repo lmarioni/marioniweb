@@ -27,6 +27,7 @@ if (isset($_POST) && $_POST['action'] == 'deja_datos') {
     //    System::print_pre('22');
     $rta = System::enviar_email_SMTP($de, $password, $denombre, $enviara, $asunto, $cuerpo, $cc, $cco, $respondera);
     //  System::print_pre($rta);
+
 }
 ?>
 <html lang="es">
@@ -80,7 +81,7 @@ if (isset($_POST) && $_POST['action'] == 'deja_datos') {
                 <a href="#home" class="scroll">Home</a>
                 <a href="#services" class="scroll">Services</a>
                 <a href="#about" class="scroll">About</a>
-                <a href="#contact" class="scroll">Contact</a>
+            <a href="#contact" class="scroll">Contact</a>
                 <!--<a href="#"><i class="icon-facebook"></i></a>
                 <a href="#"><i class="icon-twitter"></i></a>
                 <a href="#"><i class="icon-dribbble"></i></a>
@@ -158,7 +159,7 @@ if (isset($_POST) && $_POST['action'] == 'deja_datos') {
             </div><!-- /container -->
         </div><!-- /g -->
 
-        <!-- ========== CHARTS - DARK GREY SECTION ========== 
+        <!-- ========== CHARTS - DARK GREY SECTION ==========
         <div id="dg">
                 <div class="container">
                         <div class="row">
@@ -223,8 +224,8 @@ if (isset($_POST) && $_POST['action'] == 'deja_datos') {
                                                         var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
                                         </script>
                                 </div>
-                        
-                        </div>	
+
+                        </div>
                 </div><!-- /container -->
     </div><!-- /dg -->
 
@@ -237,18 +238,18 @@ if (isset($_POST) && $_POST['action'] == 'deja_datos') {
                     <a href="item.html" style='font-size: 150px;'><i class="fab fa-html5"></i></a>
                 </div>
                 <div class="col-lg-2 col-xs-6 port-space">
-                    <a href="item.html" style='font-size: 150px;color:#D86F9C;'><i class="fab fa-sass"></i></a>
+                    <a href="item.html" style='font-size: 150px;color: #D86F9C;'><i class="fab fa-sass"></i></a>
                 </div>
                 <div class="col-lg-2 col-xs-6 port-space">
                     <a href="item.html" style='font-size: 150px;color:#F3DF50;'><i class="fab fa-js"></i></a>
-                </div>	
+                </div>
                 <div class="col-lg-2 col-xs-6 port-space">
                     <a href="item.html" style='font-size: 140px;color:#787CAF;'><i class="fab fa-php"></i></a>
-                </div>	
+                </div>
                 <div class="col-lg-2 col-xs-12 port-space">
                     <a href="item.html" style='font-size: 150px;color:#DF9545;'><i class="fab fa-aws"></i></a>
-                </div>	
-            </div>	
+                </div>
+            </div>
         </div><!-- /container -->
     </div><!-- /portfoliowrap -->
     <div id="w2" style="background-color: white;">
@@ -259,7 +260,7 @@ if (isset($_POST) && $_POST['action'] == 'deja_datos') {
                 </div>
                 <div class="col-md-7 text-center">
                     <br>
-                    <h2 style="font-size: 3em;font-weight: 900;color: #black;">MI SITIO</h2> 
+                    <h2 style="font-size: 3em;font-weight: 900;color: #black;">MI SITIO</h2>
                     <h2 style="font-size: 3em;font-weight: 900;color: #f85b37;"> PRIMERO EN GOOGLE</h2>
                     <h4>Incrementa tus clientes</h4>
                     <h4>Mayor presencia que tu competencia</h4>
@@ -281,7 +282,7 @@ if (isset($_POST) && $_POST['action'] == 'deja_datos') {
     </div>
 
 
-    <!-- ========== WHITE SECTION ========== 
+    <!-- ========== WHITE SECTION ==========
     <div id="w">
             <div class="container">
                     <div class="row">
